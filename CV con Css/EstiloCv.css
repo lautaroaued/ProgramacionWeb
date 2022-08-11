@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(87, 126, 211);
+   
+    
+}
+
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 70px;
+    margin-left: 5%;
+}
+
+.DatosPersonales{
+    border: solid 3px black;
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+    width: 80%;
+    background-color: rgb(189, 220, 224);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.FotoCv{
+    display: flex;
+    justify-content: start;
+    margin-left: 2%;
+    width: 30%;
+    height: 100%;    
+}
+
+
+.DatosFormacion{
+    border: solid 3px black;
+    display: flex;
+    height: 900px;
+    width: 80%;
+    align-items: center;
+    background-color: rgb(167, 192, 192);
+}
+
+.ExperienciaLaboral{
+    border: solid 3px black;
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+    width: 80%;
+    background-color: rgb(189, 220, 224);
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.Expectativas{
+    border: solid 3px black;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 80%;
+    background-color: rgb(167, 192, 192);
+    font-size: 80px;
+    text-align: justify;
+    
+   
+}
+
+
+.FotoCv img {
+    border-radius: 300px;
+}
+
+.DatosContacto , .Estudios, .EstrellaCondorDescripcion , .TarjetaElebarDescripcion , .BancoHipotecarioDescripcion , .textoExpectativas {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+
+}
+.Estudios{
+    margin-left: 10%; 
+    font-size: 80px;
+    
+}
+
+.EstrellaCondor, .TarjetaElebar , .BancoHipotecario{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+.EstrellaCondorImg, .TarjetaElebarImg, .BancoHipotecarioImg{
+    width: 100%;
+    height:50%;   
+}
+
+.EstrellaCondorDescripcion, .TarjetaElebarDescripcion, .BancoHipotecarioDescripcion{
+    display: flex;
+    width: 100%;
+    height:50%;   
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.imagenCondorEstrella, .imagenTarjetaElebar, .imagenBancoHipotecario{
+    width: 100%;
+    height: 100%;
+}
+
+
+.textoExpectativas{
+
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
